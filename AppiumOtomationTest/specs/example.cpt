@@ -1,0 +1,80 @@
+  #Uygulamanin acilmasi kontrolu
+  * "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'si olan element gorunuyor mu
+  * "3" saniye bekle
+
+  #Alisverise basla butonuna tiklanir
+  * id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+  * "3" saniye bekle
+
+  #Alisveris sayfasinin acilmasi kontrolu
+  * "com.ozdilek.ozdilekteyim:id/relLayMarket" id'si olan element gorunuyor mu
+  * "3" saniye bekle
+
+  #Kategoriler sayfasi ve kadin secenegine tiklanir, acilir
+  * id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+  * "3" saniye bekle
+  * xPath "//*[@class='android.widget.TextView' and @text ='Kadın']" li elemente tıkla
+  * "3" saniye bekle
+
+  #Pantolon secenegine tiklanir
+  * xPath "//*[@class='android.widget.TextView' and @text ='Pantolon']" li elemente tıkla
+  * "3" saniye bekle
+
+  #Sayfayı iki kere scroll yapma
+  * Ekranı "2" defa asagı kaydır ve "2" saniye bekle
+  * "3" saniye bekle
+  * Ekranı "2" defa asagı kaydır ve "2" saniye bekle
+  * "3" saniye bekle
+
+  #Rastgele bir urun sec
+  * Rastgele bir ürün seç
+  * "3" saniye bekle
+
+  #Ürün detay sayfasi acildigi kontrol edilir
+  * "com.ozdilek.ozdilekteyim:id/imgPromotion" id'si olan element gorunuyor mu
+  * "3" saniye bekle
+
+  #Favoriler butonuna tiklanir
+  * id "com.ozdilek.ozdilekteyim:id/imgFav" li elemente tıkla
+  * "3" saniye bekle
+
+  #Login sayfası acildi mi?
+  * "com.ozdilek.ozdilekteyim:id/etEposta" id'si olan element gorunuyor mu
+  * "3" saniye bekle
+
+  #Kullanici adi ve password girisi
+  * "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "oguzffb@gmail.com" değerini yaz
+  * "3" saniye bekle
+  * "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "1q2w3e4r5t" değerini yaz
+  * "3" saniye bekle
+  
+  #İki kere geri gelinir
+  * id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+  * "3" saniye bekle
+  * id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+  * "3" saniye bekle
+
+  #Rastgele bir urun sec
+  * Rastgele bir ürün seç
+  * "3" saniye bekle
+
+  #Secilen urun sepete eklenir
+  * id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elemente tıkla
+  * "3" saniye bekle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
